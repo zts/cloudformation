@@ -24,4 +24,4 @@ end
 cloudformation["resource_id"] = resource.logical_resource_id
 cloudformation["resource_type"] = resource.resource_type
 cloudformation["stack_name"] = stack.name
-cloudformation["stack_id"] = stack.id
+cloudformation["stack_id"] = stack.stack_id
